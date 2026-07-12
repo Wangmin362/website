@@ -75,12 +75,10 @@ resources:
   transformations:
     - input: nvidia.com/gpucores
       strategy: Replace
-      multiplyBy: nvidia.com/gpu
       outputs:
         nvidia.com/total-gpucores: "1"
     - input: nvidia.com/gpumem
       strategy: Replace
-      multiplyBy: nvidia.com/gpu
       outputs:
         nvidia.com/total-gpumem: "1"
 ```

@@ -14,7 +14,7 @@ E2E tests validate the complete functionality of a system, ensuring that the end
 
 While unit and integration tests provide valuable feedback, they are often insufficient in distributed systems. Minor changes may pass unit and integration tests but still introduce unforeseen issues at the system level.
 
-Comprehensive E2E test coverage is essential to mitigate the risks of regressions, improve reliability, and maintain confidence in the system's seamless integration with Kubernetes.
+Thorough E2E test coverage is essential to mitigate the risks of regressions, improve reliability, and maintain confidence in the system's integration with Kubernetes.
 
 ### Goals
 
